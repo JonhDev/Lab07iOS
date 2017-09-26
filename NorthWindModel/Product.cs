@@ -5,6 +5,7 @@ namespace NorthWindModel
 {
     public class Product: IProduct
     {
+	//Propiedades del producto
         public int ProductID { get ; set; }
         public string ProductName { get ; set; }
         public int? SupplierID { get; set; }
